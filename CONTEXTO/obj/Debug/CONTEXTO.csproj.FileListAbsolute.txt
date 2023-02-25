@@ -1,0 +1,37 @@
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.GenerateResource.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.PrimerMigracion.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Segunda.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.PrimerMigracion.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Segunda.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.GenerateResource.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.CopyComplete
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.fechaConfig.resources

@@ -1,0 +1,90 @@
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\CONTEXTO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.pdb

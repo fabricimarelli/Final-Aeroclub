@@ -1,0 +1,48 @@
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\Trabajo de campo\Parcial 2\Implementacion\MODELO\obj\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\MODELO.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.dll
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\MODELO.pdb
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.dll
+C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.pdb
