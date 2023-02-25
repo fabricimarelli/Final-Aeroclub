@@ -27,8 +27,8 @@ namespace VISTA
         }
 
         //declaro las variables temporales para crear los objetos del modelo
-        private CONTROLADORA.Socios cSocios;
-        private MODELO.Socio oSocio;
+        private Socios cSocios;
+        private Socio oSocio;
         char ACCION;
         // declaro una variable que me indica la acción
         //private MODELO.ACCION ACCION;
@@ -37,6 +37,8 @@ namespace VISTA
         {
             InitializeComponent();
             cSocios=Socios.ObtenerInstancia();
+            COMBO_SOCIOS();
+            //ARMAGRILLADNI();
             MODO_GRILLA();
             ARMA_GRILLA();
         }
@@ -45,14 +47,18 @@ namespace VISTA
         {
             dgvSocios.DataSource = null;
             dgvSocios.DataSource = cSocios.ObtenerSocios();
-            /*dgvSocios.Columns[0].HeaderText = "ID";
-            dgvSocios.Columns[1].HeaderText = "Nombre";
-            dgvSocios.Columns[2].HeaderText = "Apellido";
-            dgvSocios.Columns[4].HeaderText = "Domicilio";
-            dgvSocios.Columns[5].HeaderText = "Celular";
-            dgvSocios.Columns[6].HeaderText = "Email";
+            dgvSocios.Columns[0].HeaderText = "ID";
+            dgvSocios.Columns[1].HeaderText = "Ingreso";
+            dgvSocios.Columns[2].HeaderText = "Nombre";
+            dgvSocios.Columns[3].HeaderText = "Apellido";
+            dgvSocios.Columns[4].HeaderText = "DNI";
+            dgvSocios.Columns[5].HeaderText = "Nacimiento";
+            dgvSocios.Columns[6].HeaderText = "Domicilio";
+            dgvSocios.Columns[7].HeaderText = "Celular";
+            dgvSocios.Columns[8].HeaderText = "Email";
+            dgvSocios.Columns[9].HeaderText = "Foto";
             dgvSocios.ReadOnly = true;
-            dgvSocios.AutoResizeColumn(0);*/
+            dgvSocios.AutoResizeColumn(0);
             
 
         }
@@ -67,6 +73,9 @@ namespace VISTA
         {
             gbListaSocios.Enabled = false;
             gbDatosSocio.Enabled = true;
+            rbComun.Checked = true;
+            gbAviacion.Enabled=false;
+            gbLicencias.Enabled=false;
             if (ACCION == 'C')
             {
                 btnGuardar.Enabled = false;
@@ -91,12 +100,9 @@ namespace VISTA
             txtID.Clear();
             rbAviacion.Checked = false;
             rbComun.Checked = true;
-            cbAlumno.Checked = false;
             cbPiloto.Checked = false;
             cbListLicencias.ClearSelected();
             txtHorasVoladas.Clear();
-            txtClaseCMA.Clear();
-            dtpVencCMA.Value = DateTime.Now;
 
         }
 
@@ -112,9 +118,26 @@ namespace VISTA
             txtApellido.Text = oSocio.apellido;
             txtDomicilio.Text = oSocio.domicilio;
             txtDNI.Text = oSocio.DNI.ToString();
+            dtpFechaNacim.Value = oSocio.fechaNacimiento;
             txtCelular.Text = oSocio.celular;
+            txtEmail.Text = oSocio.email;
             txtID.Text = oSocio.ID_socio.ToString();
-            
+
+            Type tipo = oSocio.GetType();
+            if (typeof(MODELO.Socio).IsEquivalentTo(tipo))
+            {
+                rbComun.Checked = true;
+            }
+            else
+            {
+                rbAviacion.Checked = true;
+                if (((MODELO.Piloto)oSocio).esPiloto)
+                {
+                    cbPiloto.Checked = true;
+                    //traer las licencias al cheboxlist
+                }
+                txtHorasVoladas.Text = ((MODELO.Piloto)oSocio).horasVoladas.ToString();
+            }
 
         }
 
@@ -190,30 +213,57 @@ namespace VISTA
 
         private void rbAviacion_CheckedChanged(object sender, EventArgs e)
         {
-            if(rbAviacion.Checked)
+            if (rbAviacion.Checked)
+            {
                 gbAviacion.Enabled = true;
+            }
             else
+            {
                 gbAviacion.Enabled = false;
+            }
 
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             
-            #region VALIDACIONES
+            #region VALIDACIONES SOCIO 
             int DNI;
             if(!Int32.TryParse(txtDNI.Text, out DNI))
             {
                 MessageBox.Show("Ingrese un DNI valido");
             }
+            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            {
+                MessageBox.Show("Ingrese nombre");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(txtApellido.Text))
+            {
+                MessageBox.Show("Ingrese Apellido");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(txtDomicilio.Text))
+            {
+                MessageBox.Show("Ingrese domicilio");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(txtCelular.Text))
+            {
+                MessageBox.Show("Ingrese celular");
+                return;
+            }
+            
             #endregion
+            #region VUELCA DATOS COMUNES
+            
             if (ACCION == 'A')
             {
-                if (rbComun.Checked = true)
+                if (rbComun.Checked == true)
                 {
                     oSocio = new Socio();
                 }
-                if (rbAviacion.Checked = true)
+                if (rbAviacion.Checked == true)
                 {
                     oSocio = new Piloto();
                 }
@@ -225,13 +275,15 @@ namespace VISTA
             oSocio.fechaNacimiento = dtpFechaNacim.Value.Date;
             oSocio.celular = txtCelular.Text;
             oSocio.email = txtEmail.Text;
-
+            #endregion
+            
             decimal horasVoladas = 0;
-            if (rbAviacion.Checked = true)
+            if (rbAviacion.Checked)
             {
-                if (cbPiloto.Checked = true)
+                if (cbPiloto.Checked)
                 {
                     ((MODELO.Piloto)oSocio).esPiloto = true;
+
                 }
                 else
                 {
@@ -244,15 +296,14 @@ namespace VISTA
                     return;
                 }
                 ((MODELO.Piloto)oSocio).horasVoladas = horasVoladas;
-                ((MODELO.Piloto)oSocio).claseCMA = txtClaseCMA.Text;
-                ((MODELO.Piloto)oSocio).vencimientoCMA = dtpVencCMA.Value.Date;
 
             }
 
             if (ACCION == 'A')
             {
-                
+                oSocio.fechaAdmision = DateTime.Now;
                 cSocios.AgregarSocio(oSocio);
+
             }
             if (ACCION == 'E')
             {
@@ -267,6 +318,45 @@ namespace VISTA
             MODO_GRILLA();
             ARMA_GRILLA();
             LIMPIAR();
+        }
+
+        private void cbPiloto_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbPiloto.Checked)
+            {
+                gbLicencias.Enabled = true;
+                cbListLicencias.Enabled=true; 
+            }
+            else
+            {
+                gbLicencias.Enabled = false;
+                cbListLicencias.Enabled=false;
+            }
+        }
+
+        private void COMBO_SOCIOS()
+        {
+            // Vacío la lista de clientes cada vez que quiero armar una nueva
+            cmbSocios.Items.Clear();
+
+            //le pido al banco la lisya de clientes y la asigno como arreglo
+            cmbSocios.Items.AddRange(cSocios.ObtenerSocios().ToArray());
+            cmbSocios.Items.Insert(0, new Socio { DNI = 0, apellido = "Todos los socios..." });
+            cmbSocios.DisplayMember = "nombre";
+            cmbSocios.DisplayMember = "DNI";
+           
+        }
+
+        private void ARMAGRILLADNI()
+        {
+            
+            dgvSocios.DataSource = null;
+            dgvSocios.DataSource = cSocios.ObtenerSocioDNI(cmbSocios.SelectedItem != null ? ((MODELO.Socio)cmbSocios.SelectedItem).DNI: 0);
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            ARMAGRILLADNI();
         }
     }
 }

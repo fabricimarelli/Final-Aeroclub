@@ -28,18 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSocios));
             this.dgvSocios = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.txtBuscaDNI = new System.Windows.Forms.TextBox();
             this.btnConsultar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.gbListaSocios = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -62,26 +60,23 @@
             this.rbAviacion = new System.Windows.Forms.RadioButton();
             this.rbComun = new System.Windows.Forms.RadioButton();
             this.gbAviacion = new System.Windows.Forms.GroupBox();
-            this.dtpVencCMA = new System.Windows.Forms.DateTimePicker();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtClaseCMA = new System.Windows.Forms.TextBox();
-            this.txtHorasVoladas = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.cbListLicencias = new System.Windows.Forms.CheckedListBox();
-            this.cbAlumno = new System.Windows.Forms.CheckBox();
             this.cbPiloto = new System.Windows.Forms.CheckBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.gbDatosSocio = new System.Windows.Forms.GroupBox();
             this.btnExaminar = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtHorasVoladas = new System.Windows.Forms.TextBox();
+            this.gbLicencias = new System.Windows.Forms.GroupBox();
+            this.cmbSocios = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSocios)).BeginInit();
             this.gbListaSocios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             this.gbTipoSocio.SuspendLayout();
             this.gbAviacion.SuspendLayout();
             this.gbDatosSocio.SuspendLayout();
+            this.gbLicencias.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvSocios
@@ -91,35 +86,35 @@
             this.dgvSocios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.dgvSocios.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvSocios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSocios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSocios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvSocios.ColumnHeadersHeight = 30;
             this.dgvSocios.EnableHeadersVisualStyles = false;
             this.dgvSocios.GridColor = System.Drawing.SystemColors.HotTrack;
             this.dgvSocios.Location = new System.Drawing.Point(23, 77);
             this.dgvSocios.Name = "dgvSocios";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSocios.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSocios.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvSocios.RowHeadersVisible = false;
             this.dgvSocios.RowHeadersWidth = 51;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvSocios.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvSocios.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvSocios.RowTemplate.Height = 24;
             this.dgvSocios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvSocios.Size = new System.Drawing.Size(781, 578);
@@ -187,16 +182,7 @@
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
-            // 
-            // txtBuscaDNI
-            // 
-            this.txtBuscaDNI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtBuscaDNI.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscaDNI.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtBuscaDNI.Location = new System.Drawing.Point(395, 36);
-            this.txtBuscaDNI.Name = "txtBuscaDNI";
-            this.txtBuscaDNI.Size = new System.Drawing.Size(196, 32);
-            this.txtBuscaDNI.TabIndex = 1;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnConsultar
             // 
@@ -214,21 +200,10 @@
             this.btnConsultar.UseVisualStyleBackColor = false;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(245, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 23);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Ingrese DNI";
-            // 
             // gbListaSocios
             // 
-            this.gbListaSocios.Controls.Add(this.label1);
+            this.gbListaSocios.Controls.Add(this.cmbSocios);
             this.gbListaSocios.Controls.Add(this.btnConsultar);
-            this.gbListaSocios.Controls.Add(this.txtBuscaDNI);
             this.gbListaSocios.Controls.Add(this.btnBuscar);
             this.gbListaSocios.Controls.Add(this.btnEliminar);
             this.gbListaSocios.Controls.Add(this.btnEditar);
@@ -236,10 +211,10 @@
             this.gbListaSocios.Controls.Add(this.dgvSocios);
             this.gbListaSocios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbListaSocios.ForeColor = System.Drawing.Color.White;
-            this.gbListaSocios.Location = new System.Drawing.Point(30, 28);
+            this.gbListaSocios.Location = new System.Drawing.Point(29, 28);
             this.gbListaSocios.Name = "gbListaSocios";
             this.gbListaSocios.Size = new System.Drawing.Size(826, 756);
-            this.gbListaSocios.TabIndex = 8;
+            this.gbListaSocios.TabIndex = 0;
             this.gbListaSocios.TabStop = false;
             this.gbListaSocios.Text = "Listado de socios";
             // 
@@ -444,15 +419,9 @@
             // 
             // gbAviacion
             // 
-            this.gbAviacion.Controls.Add(this.dtpVencCMA);
-            this.gbAviacion.Controls.Add(this.label13);
-            this.gbAviacion.Controls.Add(this.label12);
+            this.gbAviacion.Controls.Add(this.gbLicencias);
             this.gbAviacion.Controls.Add(this.label11);
-            this.gbAviacion.Controls.Add(this.txtClaseCMA);
             this.gbAviacion.Controls.Add(this.txtHorasVoladas);
-            this.gbAviacion.Controls.Add(this.label10);
-            this.gbAviacion.Controls.Add(this.cbListLicencias);
-            this.gbAviacion.Controls.Add(this.cbAlumno);
             this.gbAviacion.Controls.Add(this.cbPiloto);
             this.gbAviacion.ForeColor = System.Drawing.Color.White;
             this.gbAviacion.Location = new System.Drawing.Point(22, 422);
@@ -462,101 +431,25 @@
             this.gbAviacion.TabStop = false;
             this.gbAviacion.Text = "Aviación";
             // 
-            // dtpVencCMA
-            // 
-            this.dtpVencCMA.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpVencCMA.Location = new System.Drawing.Point(146, 166);
-            this.dtpVencCMA.MaxDate = new System.DateTime(2040, 12, 31, 0, 0, 0, 0);
-            this.dtpVencCMA.MinDate = new System.DateTime(1901, 1, 1, 0, 0, 0, 0);
-            this.dtpVencCMA.Name = "dtpVencCMA";
-            this.dtpVencCMA.Size = new System.Drawing.Size(196, 32);
-            this.dtpVencCMA.TabIndex = 30;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(17, 174);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(122, 23);
-            this.label13.TabIndex = 34;
-            this.label13.Text = "Venc. CMA";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(17, 118);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(120, 23);
-            this.label12.TabIndex = 33;
-            this.label12.Text = "Clase CMA";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(17, 67);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 23);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "Hs voladas";
-            // 
-            // txtClaseCMA
-            // 
-            this.txtClaseCMA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtClaseCMA.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtClaseCMA.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtClaseCMA.Location = new System.Drawing.Point(146, 115);
-            this.txtClaseCMA.Name = "txtClaseCMA";
-            this.txtClaseCMA.Size = new System.Drawing.Size(196, 32);
-            this.txtClaseCMA.TabIndex = 31;
-            // 
-            // txtHorasVoladas
-            // 
-            this.txtHorasVoladas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtHorasVoladas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHorasVoladas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtHorasVoladas.Location = new System.Drawing.Point(146, 64);
-            this.txtHorasVoladas.Name = "txtHorasVoladas";
-            this.txtHorasVoladas.Size = new System.Drawing.Size(196, 32);
-            this.txtHorasVoladas.TabIndex = 30;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label10.Location = new System.Drawing.Point(354, 28);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(98, 23);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Licencias";
-            // 
             // cbListLicencias
             // 
             this.cbListLicencias.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.cbListLicencias.FormattingEnabled = true;
-            this.cbListLicencias.Location = new System.Drawing.Point(358, 64);
+            this.cbListLicencias.Location = new System.Drawing.Point(20, 48);
             this.cbListLicencias.Name = "cbListLicencias";
             this.cbListLicencias.Size = new System.Drawing.Size(209, 139);
             this.cbListLicencias.TabIndex = 2;
             // 
-            // cbAlumno
-            // 
-            this.cbAlumno.AutoSize = true;
-            this.cbAlumno.Location = new System.Drawing.Point(219, 24);
-            this.cbAlumno.Name = "cbAlumno";
-            this.cbAlumno.Size = new System.Drawing.Size(108, 27);
-            this.cbAlumno.TabIndex = 1;
-            this.cbAlumno.Text = "Alumno";
-            this.cbAlumno.UseVisualStyleBackColor = true;
-            // 
             // cbPiloto
             // 
             this.cbPiloto.AutoSize = true;
-            this.cbPiloto.Location = new System.Drawing.Point(103, 24);
+            this.cbPiloto.Location = new System.Drawing.Point(33, 67);
             this.cbPiloto.Name = "cbPiloto";
             this.cbPiloto.Size = new System.Drawing.Size(85, 27);
             this.cbPiloto.TabIndex = 0;
             this.cbPiloto.Text = "Piloto";
             this.cbPiloto.UseVisualStyleBackColor = true;
+            this.cbPiloto.CheckedChanged += new System.EventHandler(this.cbPiloto_CheckedChanged);
             // 
             // btnGuardar
             // 
@@ -592,7 +485,6 @@
             // 
             // gbDatosSocio
             // 
-            this.gbDatosSocio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gbDatosSocio.Controls.Add(this.btnExaminar);
             this.gbDatosSocio.Controls.Add(this.btnCancelar);
             this.gbDatosSocio.Controls.Add(this.btnGuardar);
@@ -617,10 +509,10 @@
             this.gbDatosSocio.Controls.Add(this.label2);
             this.gbDatosSocio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbDatosSocio.ForeColor = System.Drawing.Color.White;
-            this.gbDatosSocio.Location = new System.Drawing.Point(902, 28);
+            this.gbDatosSocio.Location = new System.Drawing.Point(903, 28);
             this.gbDatosSocio.Name = "gbDatosSocio";
             this.gbDatosSocio.Size = new System.Drawing.Size(626, 756);
-            this.gbDatosSocio.TabIndex = 9;
+            this.gbDatosSocio.TabIndex = 0;
             this.gbDatosSocio.TabStop = false;
             this.gbDatosSocio.Text = "Datos socio";
             // 
@@ -640,6 +532,47 @@
             this.btnExaminar.UseVisualStyleBackColor = false;
             this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(33, 112);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(119, 23);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "Hs voladas";
+            // 
+            // txtHorasVoladas
+            // 
+            this.txtHorasVoladas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtHorasVoladas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorasVoladas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtHorasVoladas.Location = new System.Drawing.Point(33, 138);
+            this.txtHorasVoladas.Name = "txtHorasVoladas";
+            this.txtHorasVoladas.Size = new System.Drawing.Size(196, 32);
+            this.txtHorasVoladas.TabIndex = 30;
+            // 
+            // gbLicencias
+            // 
+            this.gbLicencias.Controls.Add(this.cbListLicencias);
+            this.gbLicencias.ForeColor = System.Drawing.Color.White;
+            this.gbLicencias.Location = new System.Drawing.Point(304, 19);
+            this.gbLicencias.Name = "gbLicencias";
+            this.gbLicencias.Size = new System.Drawing.Size(262, 202);
+            this.gbLicencias.TabIndex = 31;
+            this.gbLicencias.TabStop = false;
+            this.gbLicencias.Text = "Licencias";
+            // 
+            // cmbSocios
+            // 
+            this.cmbSocios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbSocios.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSocios.ForeColor = System.Drawing.Color.White;
+            this.cmbSocios.FormattingEnabled = true;
+            this.cmbSocios.Location = new System.Drawing.Point(172, 36);
+            this.cmbSocios.Name = "cmbSocios";
+            this.cmbSocios.Size = new System.Drawing.Size(429, 29);
+            this.cmbSocios.TabIndex = 8;
+            // 
             // frmSocios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -654,7 +587,6 @@
             this.Text = "frmInicio";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSocios)).EndInit();
             this.gbListaSocios.ResumeLayout(false);
-            this.gbListaSocios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
             this.gbTipoSocio.ResumeLayout(false);
             this.gbTipoSocio.PerformLayout();
@@ -662,6 +594,7 @@
             this.gbAviacion.PerformLayout();
             this.gbDatosSocio.ResumeLayout(false);
             this.gbDatosSocio.PerformLayout();
+            this.gbLicencias.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -673,9 +606,7 @@
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.TextBox txtBuscaDNI;
         private System.Windows.Forms.Button btnConsultar;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox gbListaSocios;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNombre;
@@ -698,19 +629,15 @@
         private System.Windows.Forms.RadioButton rbAviacion;
         private System.Windows.Forms.RadioButton rbComun;
         private System.Windows.Forms.GroupBox gbAviacion;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckedListBox cbListLicencias;
-        private System.Windows.Forms.CheckBox cbAlumno;
         private System.Windows.Forms.CheckBox cbPiloto;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.GroupBox gbDatosSocio;
         private System.Windows.Forms.Button btnExaminar;
-        private System.Windows.Forms.DateTimePicker dtpVencCMA;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.GroupBox gbLicencias;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtClaseCMA;
         private System.Windows.Forms.TextBox txtHorasVoladas;
+        private System.Windows.Forms.ComboBox cmbSocios;
     }
 }

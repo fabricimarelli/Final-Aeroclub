@@ -50,6 +50,11 @@ namespace CONTROLADORA
             oAeroclub.SaveChanges();
         }
 
+        public List<Socio> ObtenerSocioDNI(int DNI)
+        {
+            return CASOS_USO.Socios.GestionaSocios.ObtenerSocioDNI(oAeroclub, DNI);
+        }
+
     }
 
 }

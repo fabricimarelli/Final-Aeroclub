@@ -54,17 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aeroclub.cs" />
-    <Compile Include="Migrations\202302250057355_PrimerMigracion.cs" />
-    <Compile Include="Migrations\202302250057355_PrimerMigracion.designer.cs">
-      <DependentUpon>202302250057355_PrimerMigracion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302250439163_Segunda.cs" />
-    <Compile Include="Migrations\202302250439163_Segunda.designer.cs">
-      <DependentUpon>202302250439163_Segunda.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202302251633243_fechaConfig.cs" />
-    <Compile Include="Migrations\202302251633243_fechaConfig.designer.cs">
-      <DependentUpon>202302251633243_fechaConfig.cs</DependentUpon>
+    <Compile Include="Migrations\202302252045579_Primera.cs" />
+    <Compile Include="Migrations\202302252045579_Primera.designer.cs">
+      <DependentUpon>202302252045579_Primera.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,14 +72,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302250057355_PrimerMigracion.resx">
-      <DependentUpon>202302250057355_PrimerMigracion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302250439163_Segunda.resx">
-      <DependentUpon>202302250439163_Segunda.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202302251633243_fechaConfig.resx">
-      <DependentUpon>202302251633243_fechaConfig.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302252045579_Primera.resx">
+      <DependentUpon>202302252045579_Primera.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

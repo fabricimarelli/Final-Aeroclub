@@ -46,3 +46,15 @@ C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proy
 C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
 C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.dll
 C:\Users\Fabrizio\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\MODELO\obj\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\MODELO.dll.config
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\EntityFramework.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\EntityFramework.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.csproj.AssemblyReference.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.pdb

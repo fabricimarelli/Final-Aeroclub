@@ -14,5 +14,16 @@ namespace CASOS_USO.Socios
         {
             return aeroclub.Socios.ToList();
         }
+
+
+        public static List<MODELO.Socio> ObtenerSocioDNI(Aeroclub aeroclub, int DNI)
+        {
+            var socios = from Socios in aeroclub.Socios
+                          where (DNI != 0 ? Socios.DNI == DNI : true)
+                          select Socios;
+            return socios.ToList();
+        }
+
+
     }
 }

@@ -29,10 +29,10 @@ namespace MODELO
     public class Piloto : Socio
     {
         public bool esPiloto { get; set; }
-        //public List<Licencia> licencias { get; set; }
+        public List<Licencia> licencias { get; set; }
         public decimal horasVoladas { get; set; }
-        public string claseCMA { get; set; }
-        public DateTime vencimientoCMA { get; set; }
+        //public string claseCMA { get; set; }
+        //public DateTime vencimientoCMA { get; set; }
 
     }
 

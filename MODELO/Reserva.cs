@@ -10,11 +10,10 @@ namespace MODELO
     {
         #region PROPIEDADES
         public int ID_reserva { get; set; }
-        public Piloto piloto { get; set; }//piloto o usuario que realiza la reserva 
+        public Usuario Usuario { get; set; }//usuario que realiza la reserva 
         public Aeronave aeronave { get; set; }//lista con las aeronaves disponibles
         public DateTime desde { get; set; }
         public DateTime hasta { get; set; }
-        public string finalidad { get; set; }//si es para instruccion, travesia, navegacion
         #endregion
 
         #region METODOS
