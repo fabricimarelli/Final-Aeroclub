@@ -30,18 +30,18 @@ namespace CONTROLADORA
 
         public List<Socio> ObtenerSocios()
         {
-            return GestionaSocios.ObtieneSocio(oAeroclub);
+            return GestionaAeroanves.ObtieneSocio(oAeroclub);
         }
 
         public void AgregarSocio(Socio socio)
         {
-            OperacionesSocios.AgregarSocio(oAeroclub, socio);
+            OperacionesAeronaves.AgregarSocio(oAeroclub, socio);
             oAeroclub.SaveChanges();
         }
 
         public void EliminarSocio(Socio socio)
         {
-            OperacionesSocios.EliminarSocios(oAeroclub, socio);
+            OperacionesAeronaves.EliminarSocios(oAeroclub, socio);
             oAeroclub.SaveChanges();
         }
 
@@ -52,7 +52,7 @@ namespace CONTROLADORA
 
         public List<Socio> ObtenerSocioDNI(int DNI)
         {
-            return CASOS_USO.Socios.GestionaSocios.ObtenerSocioDNI(oAeroclub, DNI);
+            return CASOS_USO.Socios.GestionaAeroanves.ObtenerSocioDNI(oAeroclub, DNI);
         }
 
     }

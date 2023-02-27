@@ -192,6 +192,7 @@
             this.btnUsurios.TabIndex = 6;
             this.btnUsurios.Text = "Usuarios";
             this.btnUsurios.UseVisualStyleBackColor = false;
+            this.btnUsurios.Click += new System.EventHandler(this.btnUsurios_Click);
             // 
             // btnClima
             // 
@@ -226,6 +227,7 @@
             this.btnVuelos.TabIndex = 4;
             this.btnVuelos.Text = "Vuelos";
             this.btnVuelos.UseVisualStyleBackColor = false;
+            this.btnVuelos.Click += new System.EventHandler(this.btnVuelos_Click);
             // 
             // btnAviones
             // 
@@ -261,6 +263,7 @@
             this.btnReservas.TabIndex = 2;
             this.btnReservas.Text = "Reservas";
             this.btnReservas.UseVisualStyleBackColor = false;
+            this.btnReservas.Click += new System.EventHandler(this.btnReservas_Click);
             // 
             // btnSocios
             // 

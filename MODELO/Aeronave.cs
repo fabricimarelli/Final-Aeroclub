@@ -13,8 +13,6 @@ namespace MODELO
         public int ID_aeronave { get; set; }
         public string matricula { get; set; }
         public string marcaModelo { get; set; }
-        //public string modelo { get; set; }
-        //public DateTime fechaFabric { get; set; }
         public decimal taquimetro { get; set; }
         public decimal tarifaHora { get; set; }
         public bool enServicio { get; set; }

@@ -136,3 +136,6 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.Cor
 C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
 C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.exe
 C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmUsuarios.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmReservas.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmVuelos.resources

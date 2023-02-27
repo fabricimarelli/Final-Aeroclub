@@ -28,11 +28,14 @@ namespace MODELO
 
     public class Piloto : Socio
     {
-        public bool esPiloto { get; set; }
-        public List<Licencia> licencias { get; set; }
+        public bool esPiloto { get; set; }//Esta propiedad representa si es piloto con licencia o es un piloto en formacion (alumno)
+        public List<Licencia> licenciasObtenidas { get; set; }
         public decimal horasVoladas { get; set; }
-        //public string claseCMA { get; set; }
-        //public DateTime vencimientoCMA { get; set; }
+
+        public Piloto()
+        {
+            licenciasObtenidas = new List<Licencia>();
+        }
 
     }
 

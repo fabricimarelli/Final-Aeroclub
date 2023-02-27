@@ -11,6 +11,7 @@ namespace MODELO
         public int ID_usuario { get; set; }
         public string nombreUsuario { get; set; }
         public string email { get; set; }//para resetear la password
+        public bool admin { get; set; }
         public string password { get; set; }
         public Socio socio { get; set; }
     }

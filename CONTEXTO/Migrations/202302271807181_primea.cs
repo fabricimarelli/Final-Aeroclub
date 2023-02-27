@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Primera : DbMigration
+    public partial class primea : DbMigration
     {
         public override void Up()
         {
@@ -19,6 +19,18 @@
                         enServicio = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.ID_aeronave);
+            
+            CreateTable(
+                "dbo.Licencias",
+                c => new
+                    {
+                        ID_licencia = c.Int(nullable: false, identity: true),
+                        nombre = c.String(),
+                        Piloto_ID_socio = c.Int(),
+                    })
+                .PrimaryKey(t => t.ID_licencia)
+                .ForeignKey("dbo.Socios", t => t.Piloto_ID_socio)
+                .Index(t => t.Piloto_ID_socio);
             
             CreateTable(
                 "dbo.Socios",
@@ -41,25 +53,13 @@
                 .PrimaryKey(t => t.ID_socio);
             
             CreateTable(
-                "dbo.Licencias",
-                c => new
-                    {
-                        ID_Licencia = c.Int(nullable: false, identity: true),
-                        nombreLicencia = c.String(),
-                        descripLicencia = c.String(),
-                        Piloto_ID_socio = c.Int(),
-                    })
-                .PrimaryKey(t => t.ID_Licencia)
-                .ForeignKey("dbo.Socios", t => t.Piloto_ID_socio)
-                .Index(t => t.Piloto_ID_socio);
-            
-            CreateTable(
                 "dbo.Usuarios",
                 c => new
                     {
                         ID_usuario = c.Int(nullable: false, identity: true),
                         nombreUsuario = c.String(),
                         email = c.String(),
+                        admin = c.Boolean(nullable: false),
                         password = c.String(),
                         socio_ID_socio = c.Int(),
                     })
@@ -76,8 +76,8 @@
             DropIndex("dbo.Usuarios", new[] { "socio_ID_socio" });
             DropIndex("dbo.Licencias", new[] { "Piloto_ID_socio" });
             DropTable("dbo.Usuarios");
-            DropTable("dbo.Licencias");
             DropTable("dbo.Socios");
+            DropTable("dbo.Licencias");
             DropTable("dbo.Aeronaves");
         }
     }

@@ -54,9 +54,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aeroclub.cs" />
-    <Compile Include="Migrations\202302252045579_Primera.cs" />
-    <Compile Include="Migrations\202302252045579_Primera.designer.cs">
-      <DependentUpon>202302252045579_Primera.cs</DependentUpon>
+    <Compile Include="Migrations\202302271807181_primea.cs" />
+    <Compile Include="Migrations\202302271807181_primea.designer.cs">
+      <DependentUpon>202302271807181_primea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302272149126_Segunda.cs" />
+    <Compile Include="Migrations\202302272149126_Segunda.designer.cs">
+      <DependentUpon>202302272149126_Segunda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302272240016_Tercera.cs" />
+    <Compile Include="Migrations\202302272240016_Tercera.designer.cs">
+      <DependentUpon>202302272240016_Tercera.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +80,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302252045579_Primera.resx">
-      <DependentUpon>202302252045579_Primera.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302271807181_primea.resx">
+      <DependentUpon>202302271807181_primea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302272149126_Segunda.resx">
+      <DependentUpon>202302272149126_Segunda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302272240016_Tercera.resx">
+      <DependentUpon>202302272240016_Tercera.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

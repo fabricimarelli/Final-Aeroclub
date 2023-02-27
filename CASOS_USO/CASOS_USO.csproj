@@ -51,7 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Licencias\GestionaLicencias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Aeronaves\GestionaAeroanves.cs" />
+    <Compile Include="Aeronaves\OperacionesAeronaves.cs" />
     <Compile Include="Socios\GestionaSocios.cs" />
     <Compile Include="Socios\OperacionesSocios.cs" />
   </ItemGroup>
@@ -69,6 +72,7 @@
       <Name>MODELO</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

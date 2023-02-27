@@ -93,5 +93,20 @@ namespace VISTA
         {
             abrirFromHijo(new frmAviones());
         }
+
+        private void btnReservas_Click(object sender, EventArgs e)
+        {
+            abrirFromHijo(new frmReservas());
+        }
+
+        private void btnVuelos_Click(object sender, EventArgs e)
+        {
+            abrirFromHijo(new frmVuelos());
+        }
+
+        private void btnUsurios_Click(object sender, EventArgs e)
+        {
+            abrirFromHijo(new frmUsuarios());
+        }
     }
 }

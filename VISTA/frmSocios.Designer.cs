@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSocios));
             this.dgvSocios = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
@@ -39,6 +39,7 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.gbListaSocios = new System.Windows.Forms.GroupBox();
+            this.cmbSocios = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -60,23 +61,22 @@
             this.rbAviacion = new System.Windows.Forms.RadioButton();
             this.rbComun = new System.Windows.Forms.RadioButton();
             this.gbAviacion = new System.Windows.Forms.GroupBox();
+            this.gbLicencias = new System.Windows.Forms.GroupBox();
             this.cbListLicencias = new System.Windows.Forms.CheckedListBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtHorasVoladas = new System.Windows.Forms.TextBox();
             this.cbPiloto = new System.Windows.Forms.CheckBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.gbDatosSocio = new System.Windows.Forms.GroupBox();
             this.btnExaminar = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtHorasVoladas = new System.Windows.Forms.TextBox();
-            this.gbLicencias = new System.Windows.Forms.GroupBox();
-            this.cmbSocios = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSocios)).BeginInit();
             this.gbListaSocios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             this.gbTipoSocio.SuspendLayout();
             this.gbAviacion.SuspendLayout();
-            this.gbDatosSocio.SuspendLayout();
             this.gbLicencias.SuspendLayout();
+            this.gbDatosSocio.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvSocios
@@ -86,35 +86,35 @@
             this.dgvSocios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.dgvSocios.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvSocios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSocios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSocios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.dgvSocios.ColumnHeadersHeight = 30;
             this.dgvSocios.EnableHeadersVisualStyles = false;
             this.dgvSocios.GridColor = System.Drawing.SystemColors.HotTrack;
             this.dgvSocios.Location = new System.Drawing.Point(23, 77);
             this.dgvSocios.Name = "dgvSocios";
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSocios.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSocios.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dgvSocios.RowHeadersVisible = false;
             this.dgvSocios.RowHeadersWidth = 51;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvSocios.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvSocios.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.dgvSocios.RowTemplate.Height = 24;
             this.dgvSocios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvSocios.Size = new System.Drawing.Size(781, 578);
@@ -218,6 +218,17 @@
             this.gbListaSocios.TabStop = false;
             this.gbListaSocios.Text = "Listado de socios";
             // 
+            // cmbSocios
+            // 
+            this.cmbSocios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.cmbSocios.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSocios.ForeColor = System.Drawing.Color.White;
+            this.cmbSocios.FormattingEnabled = true;
+            this.cmbSocios.Location = new System.Drawing.Point(172, 36);
+            this.cmbSocios.Name = "cmbSocios";
+            this.cmbSocios.Size = new System.Drawing.Size(429, 29);
+            this.cmbSocios.TabIndex = 8;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -277,6 +288,7 @@
             // 
             // dtpFechaNacim
             // 
+            this.dtpFechaNacim.CustomFormat = "";
             this.dtpFechaNacim.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaNacim.Location = new System.Drawing.Point(193, 182);
             this.dtpFechaNacim.MaxDate = new System.DateTime(2040, 12, 31, 0, 0, 0, 0);
@@ -431,6 +443,17 @@
             this.gbAviacion.TabStop = false;
             this.gbAviacion.Text = "Aviación";
             // 
+            // gbLicencias
+            // 
+            this.gbLicencias.Controls.Add(this.cbListLicencias);
+            this.gbLicencias.ForeColor = System.Drawing.Color.White;
+            this.gbLicencias.Location = new System.Drawing.Point(304, 19);
+            this.gbLicencias.Name = "gbLicencias";
+            this.gbLicencias.Size = new System.Drawing.Size(262, 202);
+            this.gbLicencias.TabIndex = 31;
+            this.gbLicencias.TabStop = false;
+            this.gbLicencias.Text = "Licencias";
+            // 
             // cbListLicencias
             // 
             this.cbListLicencias.BackColor = System.Drawing.SystemColors.WindowFrame;
@@ -439,6 +462,25 @@
             this.cbListLicencias.Name = "cbListLicencias";
             this.cbListLicencias.Size = new System.Drawing.Size(209, 139);
             this.cbListLicencias.TabIndex = 2;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(33, 112);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(119, 23);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "Hs voladas";
+            // 
+            // txtHorasVoladas
+            // 
+            this.txtHorasVoladas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.txtHorasVoladas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorasVoladas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtHorasVoladas.Location = new System.Drawing.Point(33, 138);
+            this.txtHorasVoladas.Name = "txtHorasVoladas";
+            this.txtHorasVoladas.Size = new System.Drawing.Size(196, 32);
+            this.txtHorasVoladas.TabIndex = 30;
             // 
             // cbPiloto
             // 
@@ -532,47 +574,6 @@
             this.btnExaminar.UseVisualStyleBackColor = false;
             this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(33, 112);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 23);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "Hs voladas";
-            // 
-            // txtHorasVoladas
-            // 
-            this.txtHorasVoladas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.txtHorasVoladas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHorasVoladas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtHorasVoladas.Location = new System.Drawing.Point(33, 138);
-            this.txtHorasVoladas.Name = "txtHorasVoladas";
-            this.txtHorasVoladas.Size = new System.Drawing.Size(196, 32);
-            this.txtHorasVoladas.TabIndex = 30;
-            // 
-            // gbLicencias
-            // 
-            this.gbLicencias.Controls.Add(this.cbListLicencias);
-            this.gbLicencias.ForeColor = System.Drawing.Color.White;
-            this.gbLicencias.Location = new System.Drawing.Point(304, 19);
-            this.gbLicencias.Name = "gbLicencias";
-            this.gbLicencias.Size = new System.Drawing.Size(262, 202);
-            this.gbLicencias.TabIndex = 31;
-            this.gbLicencias.TabStop = false;
-            this.gbLicencias.Text = "Licencias";
-            // 
-            // cmbSocios
-            // 
-            this.cmbSocios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.cmbSocios.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbSocios.ForeColor = System.Drawing.Color.White;
-            this.cmbSocios.FormattingEnabled = true;
-            this.cmbSocios.Location = new System.Drawing.Point(172, 36);
-            this.cmbSocios.Name = "cmbSocios";
-            this.cmbSocios.Size = new System.Drawing.Size(429, 29);
-            this.cmbSocios.TabIndex = 8;
-            // 
             // frmSocios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -592,9 +593,9 @@
             this.gbTipoSocio.PerformLayout();
             this.gbAviacion.ResumeLayout(false);
             this.gbAviacion.PerformLayout();
+            this.gbLicencias.ResumeLayout(false);
             this.gbDatosSocio.ResumeLayout(false);
             this.gbDatosSocio.PerformLayout();
-            this.gbLicencias.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -629,7 +630,6 @@
         private System.Windows.Forms.RadioButton rbAviacion;
         private System.Windows.Forms.RadioButton rbComun;
         private System.Windows.Forms.GroupBox gbAviacion;
-        private System.Windows.Forms.CheckedListBox cbListLicencias;
         private System.Windows.Forms.CheckBox cbPiloto;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnCancelar;
@@ -639,5 +639,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtHorasVoladas;
         private System.Windows.Forms.ComboBox cmbSocios;
+        private System.Windows.Forms.CheckedListBox cbListLicencias;
     }
 }

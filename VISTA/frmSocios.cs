@@ -28,19 +28,21 @@ namespace VISTA
 
         //declaro las variables temporales para crear los objetos del modelo
         private Socios cSocios;
+        private Licencias cLicencias;
         private Socio oSocio;
+        private Licencia oLicencia;
         char ACCION;
-        // declaro una variable que me indica la acción
-        //private MODELO.ACCION ACCION;
+        
 
         public frmSocios()
         {
             InitializeComponent();
             cSocios=Socios.ObtenerInstancia();
+            cLicencias = Licencias.ObtenerInstancia();
             COMBO_SOCIOS();
-            //ARMAGRILLADNI();
+            ARMAGRILLADNI();
             MODO_GRILLA();
-            ARMA_GRILLA();
+            //ARMA_GRILLA();
         }
 
         private void ARMA_GRILLA()
@@ -69,6 +71,20 @@ namespace VISTA
             gbListaSocios.Enabled = true;
         }
 
+        private void LISTAR_LICENCIAS()
+        {
+            if(cbListLicencias.Items.Count == 0)
+            {
+                cbListLicencias.Items.Add("Privado");
+                cbListLicencias.Items.Add("Multimotor");
+                cbListLicencias.Items.Add("Comercial");
+                cbListLicencias.Items.Add("Primera clase");
+                cbListLicencias.Items.Add("Instrumentos");
+                cbListLicencias.Items.Add("Instructor");
+            }
+            
+
+        }
         private void MODO_DATOS()
         {
             gbListaSocios.Enabled = false;
@@ -76,6 +92,8 @@ namespace VISTA
             rbComun.Checked = true;
             gbAviacion.Enabled=false;
             gbLicencias.Enabled=false;
+            LISTAR_LICENCIAS();
+
             if (ACCION == 'C')
             {
                 btnGuardar.Enabled = false;
@@ -103,6 +121,7 @@ namespace VISTA
             cbPiloto.Checked = false;
             cbListLicencias.ClearSelected();
             txtHorasVoladas.Clear();
+            
 
         }
 
@@ -135,10 +154,20 @@ namespace VISTA
                 {
                     cbPiloto.Checked = true;
                     //traer las licencias al cheboxlist
+                    
                 }
                 txtHorasVoladas.Text = ((MODELO.Piloto)oSocio).horasVoladas.ToString();
             }
 
+        }
+        private void LICENCIAS_OBTENIDAS()
+        {
+            List<Licencia> licenciasSeleccionadas = new List<Licencia>();
+            foreach (Licencia licencia in cbListLicencias.CheckedItems)
+            {
+                licenciasSeleccionadas.Add(licencia);
+            }
+            ((MODELO.Piloto)oSocio).licenciasObtenidas.AddRange(licenciasSeleccionadas);
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -297,6 +326,8 @@ namespace VISTA
                 }
                 ((MODELO.Piloto)oSocio).horasVoladas = horasVoladas;
 
+                //Agregar licencias seleccionadas al atributo licenciasObtenidas de la persona
+                LICENCIAS_OBTENIDAS();
             }
 
             if (ACCION == 'A')
@@ -358,5 +389,6 @@ namespace VISTA
         {
             ARMAGRILLADNI();
         }
+
     }
 }

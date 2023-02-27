@@ -8,7 +8,7 @@ using MODELO;
 
 namespace CASOS_USO.Socios
 {
-    public class OperacionesSocios
+    public class OperacionesAeronaves
     {
         public static void EliminarSocios(Aeroclub aeroclub, Socio socio)
         {

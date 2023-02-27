@@ -31,5 +31,7 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.cspr
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.CopyComplete
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.pdb
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Primera.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.primea.resources
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.GenerateResource.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Segunda.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Tercera.resources

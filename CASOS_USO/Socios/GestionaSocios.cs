@@ -8,7 +8,7 @@ using MODELO;
 
 namespace CASOS_USO.Socios
 {
-    public class GestionaSocios
+    public class GestionaAeroanves
     {
         public static List<Socio>ObtieneSocio(Aeroclub aeroclub)
         {

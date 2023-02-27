@@ -65,6 +65,12 @@
     <Compile Include="frmAviones.Designer.cs">
       <DependentUpon>frmAviones.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservas.Designer.cs">
+      <DependentUpon>frmReservas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSocios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,10 +89,25 @@
     <Compile Include="frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVuelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVuelos.Designer.cs">
+      <DependentUpon>frmVuelos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAviones.resx">
       <DependentUpon>frmAviones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservas.resx">
+      <DependentUpon>frmReservas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSocios.resx">
       <DependentUpon>frmSocios.cs</DependentUpon>
@@ -96,6 +117,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVuelos.resx">
+      <DependentUpon>frmVuelos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
