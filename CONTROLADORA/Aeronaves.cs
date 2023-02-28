@@ -50,10 +50,12 @@ namespace CONTROLADORA
             oAeroclub.SaveChanges();
         }
 
-        public List<Aeronave> ObtenerAeronavematricula(string matricula)
+        public List<Aeronave> ObtenerAeronavematricula(int ID_aeronave)
         {
-            return CASOS_USO.Aeronaves.GestionaAeroanves.ObtenerAeronaveMAT(oAeroclub, matricula);
+            return CASOS_USO.Aeronaves.GestionaAeroanves.ObtenerAeronaveMAT(oAeroclub, ID_aeronave);
         }
+
+        
 
     }
 

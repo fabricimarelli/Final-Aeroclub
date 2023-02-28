@@ -57,6 +57,7 @@
     <Compile Include="Sesiones.cs" />
     <Compile Include="Socios.cs" />
     <Compile Include="Usuarios.cs" />
+    <Compile Include="Vuelos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

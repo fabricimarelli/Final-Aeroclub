@@ -14,13 +14,26 @@ namespace MODELO
         public Piloto piloto { get; set; }
         public decimal taquimSalida { get; set; }
         public decimal taquimLlegada { get; set; }
-        public decimal tiempo { get; set; }//metodo que lo calcule a partir del taquimetro salida/llegada
-        //public int aterrizajes { get; set; }
-        public decimal tarifa { get; set; }//metodo que calcule la tarifa a partir del costo de hora de vuelo (tarifaHora-clase Aeronave) y tiempo volado
+        public decimal tiempo { get; set; }
+        public decimal tarifa { get; set; }
+        
         public string observaciones { get; set; }
+
         #endregion
 
         #region METODOS
+        public decimal CALCULAR_TIEMPO()
+        {
+            decimal tiempo = 0;
+            tiempo = (taquimLlegada - taquimSalida);
+            return tiempo;
+        }
+        public decimal CALCULAR_TARIFA()
+        {
+            decimal tarifa = 0;
+            tarifa = ((aeronave.tarifaHora) * tiempo);
+            return tarifa;
+        }
         #endregion
 
     }
@@ -28,15 +41,22 @@ namespace MODELO
     public class Instruccion : Vuelo
     {
         #region PROPIEDADES
-        Piloto alumno { get; set; }
+        public Piloto alumno { get; set; }
+        public decimal tarifaIns { get; set; }
         
-        //ID_SocioAlum
-        
-
-        //agregar metodo nuevo para calular tarifa (sumar costo de instruccion)
         #endregion
 
+
         #region METODOS
+        public decimal CALCULAR_TARIFA_INS()
+        {
+            decimal tarifa = 0;
+            decimal porcentajeIns = 0.1m;
+            tarifa = (((aeronave.tarifaHora)*tiempo)+(aeronave.tarifaHora)*porcentajeIns);
+            return tarifa;
+
+
+        }
         #endregion
     }
 

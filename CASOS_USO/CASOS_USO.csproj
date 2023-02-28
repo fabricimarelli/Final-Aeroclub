@@ -60,6 +60,8 @@
     <Compile Include="Socios\OperacionesSocios.cs" />
     <Compile Include="Usuarios\GestionaUsuarios.cs" />
     <Compile Include="Usuarios\OperacionesUsuarios.cs" />
+    <Compile Include="Vuelos\GestionaVuelos.cs" />
+    <Compile Include="Vuelos\OperacionesVuelos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

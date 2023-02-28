@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gbListaVuelos = new System.Windows.Forms.GroupBox();
             this.cmbVuelos = new System.Windows.Forms.ComboBox();
             this.btnConsultar = new System.Windows.Forms.Button();
@@ -55,12 +55,12 @@
             this.txtTaqLlegada = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtTiempo = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.cbInstruc = new System.Windows.Forms.CheckBox();
             this.gbDatosVuelo = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtObs = new System.Windows.Forms.TextBox();
             this.label99 = new System.Windows.Forms.Label();
             this.cmbAlumno = new System.Windows.Forms.ComboBox();
-            this.txtObs = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.gbListaVuelos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVuelos)).BeginInit();
             this.gbDatosVuelo.SuspendLayout();
@@ -109,6 +109,7 @@
             this.btnConsultar.TabIndex = 5;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnBuscar
             // 
@@ -124,6 +125,7 @@
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnEliminar
             // 
@@ -139,6 +141,7 @@
             this.btnEliminar.TabIndex = 6;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -154,6 +157,7 @@
             this.btnEditar.TabIndex = 4;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnAgregar
             // 
@@ -169,6 +173,7 @@
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // dgvVuelos
             // 
@@ -177,35 +182,35 @@
             this.dgvVuelos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.dgvVuelos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvVuelos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvVuelos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvVuelos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.dgvVuelos.ColumnHeadersHeight = 30;
             this.dgvVuelos.EnableHeadersVisualStyles = false;
             this.dgvVuelos.GridColor = System.Drawing.SystemColors.HotTrack;
             this.dgvVuelos.Location = new System.Drawing.Point(23, 77);
             this.dgvVuelos.Name = "dgvVuelos";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvVuelos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvVuelos.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dgvVuelos.RowHeadersVisible = false;
             this.dgvVuelos.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvVuelos.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvVuelos.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.dgvVuelos.RowTemplate.Height = 24;
             this.dgvVuelos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvVuelos.Size = new System.Drawing.Size(781, 578);
@@ -265,6 +270,7 @@
             this.btnGuardar.TabIndex = 15;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
@@ -280,6 +286,7 @@
             this.btnCancelar.TabIndex = 16;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // cmbAeronave
             // 
@@ -378,15 +385,16 @@
             this.txtTiempo.Size = new System.Drawing.Size(105, 32);
             this.txtTiempo.TabIndex = 35;
             // 
-            // checkBox2
+            // cbInstruc
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(329, 68);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(136, 27);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Instrucción";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cbInstruc.AutoSize = true;
+            this.cbInstruc.Location = new System.Drawing.Point(329, 68);
+            this.cbInstruc.Name = "cbInstruc";
+            this.cbInstruc.Size = new System.Drawing.Size(136, 27);
+            this.cbInstruc.TabIndex = 1;
+            this.cbInstruc.Text = "Instrucción";
+            this.cbInstruc.UseVisualStyleBackColor = true;
+            this.cbInstruc.CheckedChanged += new System.EventHandler(this.cbInstruc_CheckedChanged);
             // 
             // gbDatosVuelo
             // 
@@ -394,7 +402,7 @@
             this.gbDatosVuelo.Controls.Add(this.txtObs);
             this.gbDatosVuelo.Controls.Add(this.label99);
             this.gbDatosVuelo.Controls.Add(this.cmbAlumno);
-            this.gbDatosVuelo.Controls.Add(this.checkBox2);
+            this.gbDatosVuelo.Controls.Add(this.cbInstruc);
             this.gbDatosVuelo.Controls.Add(this.txtTiempo);
             this.gbDatosVuelo.Controls.Add(this.label8);
             this.gbDatosVuelo.Controls.Add(this.txtTaqLlegada);
@@ -420,6 +428,24 @@
             this.gbDatosVuelo.TabStop = false;
             this.gbDatosVuelo.Text = "Datos vuelo";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(113, 496);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(157, 23);
+            this.label6.TabIndex = 40;
+            this.label6.Text = "Observaciones";
+            // 
+            // txtObs
+            // 
+            this.txtObs.Location = new System.Drawing.Point(117, 528);
+            this.txtObs.Multiline = true;
+            this.txtObs.Name = "txtObs";
+            this.txtObs.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtObs.Size = new System.Drawing.Size(409, 127);
+            this.txtObs.TabIndex = 39;
+            // 
             // label99
             // 
             this.label99.AutoSize = true;
@@ -439,24 +465,6 @@
             this.cmbAlumno.Name = "cmbAlumno";
             this.cmbAlumno.Size = new System.Drawing.Size(409, 29);
             this.cmbAlumno.TabIndex = 37;
-            // 
-            // txtObs
-            // 
-            this.txtObs.Location = new System.Drawing.Point(117, 528);
-            this.txtObs.Multiline = true;
-            this.txtObs.Name = "txtObs";
-            this.txtObs.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtObs.Size = new System.Drawing.Size(409, 127);
-            this.txtObs.TabIndex = 39;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(113, 496);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(196, 29);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "Observaciones";
             // 
             // frmVuelos
             // 
@@ -502,7 +510,7 @@
         private System.Windows.Forms.TextBox txtTaqLlegada;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtTiempo;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox cbInstruc;
         private System.Windows.Forms.GroupBox gbDatosVuelo;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtObs;

@@ -10,16 +10,18 @@ namespace CASOS_USO.Aeronaves
 {
     public class GestionaAeroanves
     {
+        
+
         public static List<Aeronave>ObtieneAeronaves(Aeroclub aeroclub)
         {
             return aeroclub.Aeronaves.ToList();
         }
 
 
-        public static List<Aeronave> ObtenerAeronaveMAT(Aeroclub aeroclub, string matricula)
+        public static List<Aeronave> ObtenerAeronaveMAT(Aeroclub aeroclub, int ID_aeronave)
         {
             var aeronaves = from Aeronaves in aeroclub.Aeronaves
-                          where (matricula != null ? Aeronaves.matricula == matricula : true)
+                          where (ID_aeronave != null ? Aeronaves.ID_aeronave == ID_aeronave : true)
                           select Aeronaves;
             return aeronaves.ToList();
         }

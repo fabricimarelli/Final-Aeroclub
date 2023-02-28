@@ -3,10 +3,23 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Segunda : DbMigration
+    public partial class Primero : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.Aeronaves",
+                c => new
+                    {
+                        ID_aeronave = c.Int(nullable: false, identity: true),
+                        matricula = c.String(),
+                        marcaModelo = c.String(),
+                        taquimetro = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        tarifaHora = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        enServicio = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => t.ID_aeronave);
+            
             CreateTable(
                 "dbo.Cursoes",
                 c => new
@@ -25,6 +38,38 @@
                 .Index(t => t.alumno_ID_socio);
             
             CreateTable(
+                "dbo.Socios",
+                c => new
+                    {
+                        ID_socio = c.Int(nullable: false, identity: true),
+                        fechaAdmision = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
+                        nombre = c.String(),
+                        apellido = c.String(),
+                        DNI = c.Int(nullable: false),
+                        fechaNacimiento = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
+                        domicilio = c.String(),
+                        celular = c.String(),
+                        email = c.String(),
+                        fotoPersona = c.Binary(),
+                        esPiloto = c.Boolean(),
+                        horasVoladas = c.Decimal(precision: 18, scale: 2),
+                        Discriminator = c.String(nullable: false, maxLength: 128),
+                    })
+                .PrimaryKey(t => t.ID_socio);
+            
+            CreateTable(
+                "dbo.Licencias",
+                c => new
+                    {
+                        ID_licencia = c.Int(nullable: false, identity: true),
+                        nombre = c.String(),
+                        Piloto_ID_socio = c.Int(),
+                    })
+                .PrimaryKey(t => t.ID_licencia)
+                .ForeignKey("dbo.Socios", t => t.Piloto_ID_socio)
+                .Index(t => t.Piloto_ID_socio);
+            
+            CreateTable(
                 "dbo.Reservas",
                 c => new
                     {
@@ -32,13 +77,28 @@
                         desde = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                         hasta = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                         aeronave_ID_aeronave = c.Int(),
-                        Usuario_ID_usuario = c.Int(),
+                        Piloto_ID_socio = c.Int(),
                     })
                 .PrimaryKey(t => t.ID_reserva)
                 .ForeignKey("dbo.Aeronaves", t => t.aeronave_ID_aeronave)
-                .ForeignKey("dbo.Usuarios", t => t.Usuario_ID_usuario)
+                .ForeignKey("dbo.Socios", t => t.Piloto_ID_socio)
                 .Index(t => t.aeronave_ID_aeronave)
-                .Index(t => t.Usuario_ID_usuario);
+                .Index(t => t.Piloto_ID_socio);
+            
+            CreateTable(
+                "dbo.Usuarios",
+                c => new
+                    {
+                        ID_usuario = c.Int(nullable: false, identity: true),
+                        nombreUsuario = c.String(),
+                        email = c.String(),
+                        admin = c.Boolean(nullable: false),
+                        password = c.String(),
+                        socio_ID_socio = c.Int(),
+                    })
+                .PrimaryKey(t => t.ID_usuario)
+                .ForeignKey("dbo.Socios", t => t.socio_ID_socio)
+                .Index(t => t.socio_ID_socio);
             
             CreateTable(
                 "dbo.Vueloes",
@@ -48,9 +108,9 @@
                         taquimSalida = c.Decimal(nullable: false, precision: 18, scale: 2),
                         taquimLlegada = c.Decimal(nullable: false, precision: 18, scale: 2),
                         tiempo = c.Decimal(nullable: false, precision: 18, scale: 2),
-                        aterrizajes = c.Int(nullable: false),
                         tarifa = c.Decimal(nullable: false, precision: 18, scale: 2),
                         observaciones = c.String(),
+                        tarifaIns = c.Decimal(precision: 18, scale: 2),
                         Discriminator = c.String(nullable: false, maxLength: 128),
                         aeronave_ID_aeronave = c.Int(),
                         piloto_ID_socio = c.Int(),
@@ -71,20 +131,28 @@
             DropForeignKey("dbo.Vueloes", "alumno_ID_socio", "dbo.Socios");
             DropForeignKey("dbo.Vueloes", "piloto_ID_socio", "dbo.Socios");
             DropForeignKey("dbo.Vueloes", "aeronave_ID_aeronave", "dbo.Aeronaves");
-            DropForeignKey("dbo.Reservas", "Usuario_ID_usuario", "dbo.Usuarios");
+            DropForeignKey("dbo.Usuarios", "socio_ID_socio", "dbo.Socios");
+            DropForeignKey("dbo.Reservas", "Piloto_ID_socio", "dbo.Socios");
             DropForeignKey("dbo.Reservas", "aeronave_ID_aeronave", "dbo.Aeronaves");
             DropForeignKey("dbo.Cursoes", "alumno_ID_socio", "dbo.Socios");
+            DropForeignKey("dbo.Licencias", "Piloto_ID_socio", "dbo.Socios");
             DropForeignKey("dbo.Cursoes", "aeronave_ID_aeronave", "dbo.Aeronaves");
             DropIndex("dbo.Vueloes", new[] { "alumno_ID_socio" });
             DropIndex("dbo.Vueloes", new[] { "piloto_ID_socio" });
             DropIndex("dbo.Vueloes", new[] { "aeronave_ID_aeronave" });
-            DropIndex("dbo.Reservas", new[] { "Usuario_ID_usuario" });
+            DropIndex("dbo.Usuarios", new[] { "socio_ID_socio" });
+            DropIndex("dbo.Reservas", new[] { "Piloto_ID_socio" });
             DropIndex("dbo.Reservas", new[] { "aeronave_ID_aeronave" });
+            DropIndex("dbo.Licencias", new[] { "Piloto_ID_socio" });
             DropIndex("dbo.Cursoes", new[] { "alumno_ID_socio" });
             DropIndex("dbo.Cursoes", new[] { "aeronave_ID_aeronave" });
             DropTable("dbo.Vueloes");
+            DropTable("dbo.Usuarios");
             DropTable("dbo.Reservas");
+            DropTable("dbo.Licencias");
+            DropTable("dbo.Socios");
             DropTable("dbo.Cursoes");
+            DropTable("dbo.Aeronaves");
         }
     }
 }

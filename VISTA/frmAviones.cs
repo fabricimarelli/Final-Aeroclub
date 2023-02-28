@@ -115,7 +115,6 @@ namespace VISTA
 
             //le pido la lista y la asigno como arreglo
             cmbAeronaves.Items.AddRange(cAeronaves.ObtenerAeronaves().ToArray());
-            cmbAeronaves.Items.Insert(0,new Aeronave { matricula = "LV", marcaModelo = "Todos las aeronaves" });
             cmbAeronaves.DisplayMember = "marcaModelo";
             cmbAeronaves.DisplayMember = "matricula";
 
@@ -124,7 +123,7 @@ namespace VISTA
         {
 
             dgvAviones.DataSource = null;
-            dgvAviones.DataSource = cAeronaves.ObtenerAeronavematricula(cmbAeronaves.SelectedItem != null ? ((MODELO.Aeronave)cmbAeronaves.SelectedItem).matricula:"0");
+            dgvAviones.DataSource = cAeronaves.ObtenerAeronavematricula(cmbAeronaves.SelectedItem != null ? ((MODELO.Aeronave)cmbAeronaves.SelectedItem).ID_aeronave:0);
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

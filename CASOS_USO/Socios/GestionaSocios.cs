@@ -24,6 +24,6 @@ namespace CASOS_USO.Socios
             return socios.ToList();
         }
 
-
+       
     }
 }
