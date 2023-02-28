@@ -100,6 +100,7 @@ namespace VISTA
                             frmMenuPrincipal menuPrincipal = frmMenuPrincipal.ObtenerInstancia();
                             menuPrincipal.Show();
                             this.Hide();
+
                         }
                         else
                         {
@@ -107,6 +108,7 @@ namespace VISTA
                             txtPass.Clear();
                             txtUser.Focus();
                         }
+
                     }
 
                 }

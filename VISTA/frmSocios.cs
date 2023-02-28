@@ -40,9 +40,9 @@ namespace VISTA
             cSocios=Socios.ObtenerInstancia();
             cLicencias = Licencias.ObtenerInstancia();
             COMBO_SOCIOS();
-            ARMAGRILLADNI();
+            //ARMAGRILLADNI();
             MODO_GRILLA();
-            //ARMA_GRILLA();
+            ARMA_GRILLA();
         }
 
         private void ARMA_GRILLA()

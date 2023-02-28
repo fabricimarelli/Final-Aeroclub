@@ -45,6 +45,7 @@
             this.btnSocios = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -124,6 +125,7 @@
             // menuVertical
             // 
             this.menuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.menuVertical.Controls.Add(this.button1);
             this.menuVertical.Controls.Add(this.btnReportes);
             this.menuVertical.Controls.Add(this.btnCerrarSesion);
             this.menuVertical.Controls.Add(this.btnUsurios);
@@ -149,7 +151,7 @@
             this.btnReportes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(3, 437);
+            this.btnReportes.Location = new System.Drawing.Point(3, 487);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(217, 44);
             this.btnReportes.TabIndex = 8;
@@ -186,7 +188,7 @@
             this.btnUsurios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUsurios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsurios.Image")));
             this.btnUsurios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsurios.Location = new System.Drawing.Point(3, 387);
+            this.btnUsurios.Location = new System.Drawing.Point(3, 437);
             this.btnUsurios.Name = "btnUsurios";
             this.btnUsurios.Size = new System.Drawing.Size(217, 44);
             this.btnUsurios.TabIndex = 6;
@@ -204,7 +206,7 @@
             this.btnClima.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnClima.Image = ((System.Drawing.Image)(resources.GetObject("btnClima.Image")));
             this.btnClima.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClima.Location = new System.Drawing.Point(3, 337);
+            this.btnClima.Location = new System.Drawing.Point(3, 287);
             this.btnClima.Name = "btnClima";
             this.btnClima.Size = new System.Drawing.Size(217, 44);
             this.btnClima.TabIndex = 5;
@@ -221,7 +223,7 @@
             this.btnVuelos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnVuelos.Image = ((System.Drawing.Image)(resources.GetObject("btnVuelos.Image")));
             this.btnVuelos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVuelos.Location = new System.Drawing.Point(3, 287);
+            this.btnVuelos.Location = new System.Drawing.Point(3, 187);
             this.btnVuelos.Name = "btnVuelos";
             this.btnVuelos.Size = new System.Drawing.Size(217, 44);
             this.btnVuelos.TabIndex = 4;
@@ -275,7 +277,7 @@
             this.btnSocios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSocios.Image = ((System.Drawing.Image)(resources.GetObject("btnSocios.Image")));
             this.btnSocios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSocios.Location = new System.Drawing.Point(3, 187);
+            this.btnSocios.Location = new System.Drawing.Point(3, 387);
             this.btnSocios.Name = "btnSocios";
             this.btnSocios.Size = new System.Drawing.Size(217, 44);
             this.btnSocios.TabIndex = 1;
@@ -301,6 +303,23 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(1580, 815);
             this.panelContenedor.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(3, 337);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(217, 44);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Cursos";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // frmMenuPrincipal
             // 
@@ -349,6 +368,7 @@
         private System.Windows.Forms.Button btnClima;
         private System.Windows.Forms.Button btnVuelos;
         private System.Windows.Forms.Button btnReportes;
+        private System.Windows.Forms.Button button1;
     }
 }
 
