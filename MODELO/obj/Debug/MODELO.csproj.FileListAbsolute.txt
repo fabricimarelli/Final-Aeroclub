@@ -58,3 +58,5 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.csproj.C
 C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.csproj.CopyComplete
 C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\obj\Debug\MODELO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\MODELO\bin\Debug\Newtonsoft.Json.xml

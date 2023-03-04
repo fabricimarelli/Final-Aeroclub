@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Primero : DbMigration
+    public partial class rier : DbMigration
     {
         public override void Up()
         {
@@ -25,7 +25,7 @@
                 c => new
                     {
                         ID_curso = c.Int(nullable: false, identity: true),
-                        tipoCurso = c.String(),
+                        nombre = c.String(),
                         activo = c.Boolean(nullable: false),
                         horasVoladas = c.Decimal(nullable: false, precision: 18, scale: 2),
                         aeronave_ID_aeronave = c.Int(),
@@ -56,18 +56,6 @@
                         Discriminator = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => t.ID_socio);
-            
-            CreateTable(
-                "dbo.Licencias",
-                c => new
-                    {
-                        ID_licencia = c.Int(nullable: false, identity: true),
-                        nombre = c.String(),
-                        Piloto_ID_socio = c.Int(),
-                    })
-                .PrimaryKey(t => t.ID_licencia)
-                .ForeignKey("dbo.Socios", t => t.Piloto_ID_socio)
-                .Index(t => t.Piloto_ID_socio);
             
             CreateTable(
                 "dbo.Reservas",
@@ -135,7 +123,6 @@
             DropForeignKey("dbo.Reservas", "Piloto_ID_socio", "dbo.Socios");
             DropForeignKey("dbo.Reservas", "aeronave_ID_aeronave", "dbo.Aeronaves");
             DropForeignKey("dbo.Cursoes", "alumno_ID_socio", "dbo.Socios");
-            DropForeignKey("dbo.Licencias", "Piloto_ID_socio", "dbo.Socios");
             DropForeignKey("dbo.Cursoes", "aeronave_ID_aeronave", "dbo.Aeronaves");
             DropIndex("dbo.Vueloes", new[] { "alumno_ID_socio" });
             DropIndex("dbo.Vueloes", new[] { "piloto_ID_socio" });
@@ -143,13 +130,11 @@
             DropIndex("dbo.Usuarios", new[] { "socio_ID_socio" });
             DropIndex("dbo.Reservas", new[] { "Piloto_ID_socio" });
             DropIndex("dbo.Reservas", new[] { "aeronave_ID_aeronave" });
-            DropIndex("dbo.Licencias", new[] { "Piloto_ID_socio" });
             DropIndex("dbo.Cursoes", new[] { "alumno_ID_socio" });
             DropIndex("dbo.Cursoes", new[] { "aeronave_ID_aeronave" });
             DropTable("dbo.Vueloes");
             DropTable("dbo.Usuarios");
             DropTable("dbo.Reservas");
-            DropTable("dbo.Licencias");
             DropTable("dbo.Socios");
             DropTable("dbo.Cursoes");
             DropTable("dbo.Aeronaves");

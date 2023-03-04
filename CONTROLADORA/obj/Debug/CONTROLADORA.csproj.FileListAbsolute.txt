@@ -103,3 +103,5 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLAD
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLADORA.csproj.CopyComplete
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLADORA.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLADORA.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Newtonsoft.Json.xml

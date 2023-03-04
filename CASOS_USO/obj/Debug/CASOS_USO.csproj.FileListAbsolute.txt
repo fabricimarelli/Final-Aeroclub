@@ -88,3 +88,5 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.cs
 C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.csproj.CopyComplete
 C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\obj\Debug\CASOS_USO.pdb
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CASOS_USO\bin\Debug\Newtonsoft.Json.xml

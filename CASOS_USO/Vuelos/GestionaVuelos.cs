@@ -15,12 +15,17 @@ namespace CASOS_USO.Vuelos
             return aeroclub.Vuelos.ToList();
         }
 
-
-        public static List<MODELO.Vuelo> ObtenerVuelosAVION(Aeroclub aeroclub, string matricula)
+        public static Vuelo ObtieneVuelo1(Aeroclub aeroclub, int ID_vuelo)
         {
-            var vuelos = from Vuelos in aeroclub.Vuelos.Include("matricula")
-                         where (matricula != null ? Vuelos.aeronave.matricula == matricula : true)
-                         select Vuelos;
+            return aeroclub.Vuelos.Include("matricula").FirstOrDefault(_ => _.ID_vuelo == ID_vuelo);
+        }
+
+
+        public static List<MODELO.Vuelo> ObtieneVuelo(Aeroclub aeroclub, string matricula)
+        {
+            var vuelos = from vuelo in aeroclub.Vuelos
+                         where (matricula != null ? vuelo.aeronave.matricula == matricula : true)
+                         select vuelo;
             return vuelos.ToList();
         }
 

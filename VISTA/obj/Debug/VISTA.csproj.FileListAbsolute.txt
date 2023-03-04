@@ -139,3 +139,7 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.pdb
 C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmUsuarios.resources
 C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmReservas.resources
 C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmVuelos.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmReportes.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\obj\Debug\VISTA.frmPronostico.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\VISTA\bin\Debug\Newtonsoft.Json.xml

@@ -12,7 +12,7 @@ namespace CONTROLADORA
     public class Vuelos
     {
         private static Vuelos instancia;
-        Aeroclub oAeroclub;
+        
 
         public static Vuelos ObtenerInstancia()
         {
@@ -23,12 +23,17 @@ namespace CONTROLADORA
             return instancia;
         }
 
+        Aeroclub oAeroclub;
+
         private Vuelos()
         {
-            oAeroclub = new Aeroclub();
+            oAeroclub = Aeroclub.obtener_instancia();
         }
 
-
+        public List<Aeronave> OBTENER_AERONAVE()
+        {
+            return CASOS_USO.Aeronaves.GestionaAeroanves.ObtieneAeronaves(oAeroclub);
+        }
 
         public List<Vuelo> ObtenerVuelos()
         {
@@ -52,10 +57,10 @@ namespace CONTROLADORA
             oAeroclub.SaveChanges();
         }
 
-        public List<Vuelo> ObtenerVuelosAVION(string matricula)
+        public List<Vuelo> ObtieneVuelo(string matricula)
         {
 
-            return CASOS_USO.Vuelos.GestionaVuelos.ObtenerVuelosAVION(oAeroclub, matricula);
+            return CASOS_USO.Vuelos.GestionaVuelos.ObtieneVuelo(oAeroclub, matricula);
         }
 
     }

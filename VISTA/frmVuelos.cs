@@ -25,7 +25,6 @@ namespace VISTA
         }
 
         private Vuelos cVuelos;
-        private Aeronaves cAeronaves;
         private Socios cSocios;
         private Vuelo oVuelo;
         char ACCION;
@@ -34,7 +33,7 @@ namespace VISTA
         {
             InitializeComponent();
             cVuelos = Vuelos.ObtenerInstancia();
-            cAeronaves = Aeronaves.ObtenerInstancia();
+            
             cSocios = Socios.ObtenerInstancia();
             MODO_GRILLA();
             ARMA_GRILLA();
@@ -42,6 +41,7 @@ namespace VISTA
 
         private void ARMA_GRILLA()
         {
+            
             dgvVuelos.DataSource = null;
             dgvVuelos.DataSource = cVuelos.ObtenerVuelos();
             dgvVuelos.Columns[0].HeaderText = "ID";
@@ -76,6 +76,9 @@ namespace VISTA
             {
                 btnGuardar.Enabled = true;
             }
+            cmbAlumno.Enabled = false;
+            txtTarifa.Enabled = false;
+            txtTiempo.Enabled = false;
             COMBO_AERONAVES();
             COMBO_PILOTOS();
             COMBO_ALUMNOS();
@@ -86,6 +89,7 @@ namespace VISTA
         {
             txtID.Clear();
             cmbAeronave.Items.Clear();
+            cmbAeronave.Invalidate();
             cmbAlumno.Items.Clear();
             cmbPiloto.Items.Clear();
             txtObs.Clear();
@@ -135,6 +139,7 @@ namespace VISTA
             cmbVuelos.Items.AddRange(cVuelos.ObtenerVuelos().ToArray());
             cmbVuelos.Items.Insert(0, new MODELO.Aeronave { matricula = "LV..." });
             cmbVuelos.DisplayMember = "matricula";
+            cmbVuelos.ValueMember = "matricula";
         }
 
         private void COMBO_PILOTOS()
@@ -188,8 +193,10 @@ namespace VISTA
             cmbAeronave.Items.Clear();
 
             //le pido la lista y la asigno como arreglo
-            cmbAeronave.Items.AddRange(cAeronaves.ObtenerAeronaves().ToArray());
+            cmbAeronave.Items.AddRange(cVuelos.OBTENER_AERONAVE().ToArray());
+            cmbAeronave.Items.Insert(0, new MODELO.Aeronave { matricula = "LV-..." });
             cmbAeronave.DisplayMember = "matricula";
+            cmbAeronave.ValueMember = "matricula";
 
         }
 
@@ -197,7 +204,8 @@ namespace VISTA
         {
 
             dgvVuelos.DataSource = null;
-            dgvVuelos.DataSource = cVuelos.ObtenerVuelosAVION(cmbVuelos.SelectedItem != null ? ((MODELO.Aeronave)cmbVuelos.SelectedItem).matricula : "");
+            dgvVuelos.DataSource = cVuelos.ObtieneVuelo(cmbVuelos.SelectedItem != null ? ((MODELO.Aeronave)cmbVuelos.SelectedItem).matricula : "");
+
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -302,6 +310,7 @@ namespace VISTA
                 }
                 
             }
+            
             oVuelo.piloto = (Piloto)cmbPiloto.SelectedItem;
             oVuelo.aeronave = (Aeronave)cmbAeronave.SelectedItem;
             oVuelo.taquimLlegada = taqLleg;
@@ -313,7 +322,7 @@ namespace VISTA
             {
                 //oVuelo.fechaAdmision = DateTime.Now;
                 cVuelos.AgregarVuelo(oVuelo);
-                ARMA_GRILLA();
+                
             }
             if (ACCION == 'E')
             {
@@ -321,7 +330,7 @@ namespace VISTA
                 if (respuesta == DialogResult.Yes)
                 {
                     cVuelos.ModificarVuelo(oVuelo);
-                    ARMA_GRILLA();
+                    
                 }
             }
             MODO_GRILLA();

@@ -12,7 +12,7 @@ namespace CONTROLADORA
     public class Aeronaves
     {
         private static Aeronaves instancia;
-        Aeroclub oAeroclub;
+        
 
         public static Aeronaves ObtenerInstancia()
         {
@@ -23,9 +23,12 @@ namespace CONTROLADORA
             return instancia;
         }
 
+
+        Aeroclub oAeroclub;
+
         private Aeronaves()
         {
-            oAeroclub = new Aeroclub();
+            oAeroclub = Aeroclub.obtener_instancia();
         }
 
         public List<Aeronave> ObtenerAeronaves()

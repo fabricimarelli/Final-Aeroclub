@@ -40,6 +40,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -54,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aeroclub.cs" />
-    <Compile Include="Migrations\202302281746591_Primero.cs" />
-    <Compile Include="Migrations\202302281746591_Primero.designer.cs">
-      <DependentUpon>202302281746591_Primero.cs</DependentUpon>
+    <Compile Include="Migrations\202302282044076_rier.cs" />
+    <Compile Include="Migrations\202302282044076_rier.designer.cs">
+      <DependentUpon>202302282044076_rier.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +75,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302281746591_Primero.resx">
-      <DependentUpon>202302281746591_Primero.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302282044076_rier.resx">
+      <DependentUpon>202302282044076_rier.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -110,5 +110,15 @@ namespace VISTA
         {
             abrirFromHijo(new frmUsuarios());
         }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClima_Click(object sender, EventArgs e)
+        {
+            abrirFromHijo(new frmPronostico());
+        }
     }
 }

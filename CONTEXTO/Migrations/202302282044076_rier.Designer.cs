@@ -7,13 +7,13 @@ namespace CONTEXTO.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Primero : IMigrationMetadata
+    public sealed partial class rier : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Primero));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(rier));
         
         string IMigrationMetadata.Id
         {
-            get { return "202302281746591_Primero"; }
+            get { return "202302282044076_rier"; }
         }
         
         string IMigrationMetadata.Source

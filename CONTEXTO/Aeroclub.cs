@@ -6,6 +6,16 @@ namespace CONTEXTO
 {
     public class Aeroclub : DbContext
     {
+        //AGREGO EL PATRON SINGLETON PARA TRABAJAR CON UNA UNICA INSTANCIA DEL CONTEXTO
+        private static Aeroclub instancia;
+
+        public static Aeroclub obtener_instancia()
+        {
+            if (instancia == null)
+                instancia = new Aeroclub();
+
+            return instancia;
+        }
         // El contexto se ha configurado para usar una cadena de conexión 'Aeroclub' del archivo 
         // de configuración de la aplicación (App.config o Web.config). De forma predeterminada, 
         // esta cadena de conexión tiene como destino la base de datos 'CONTEXTO.Aeroclub' de la instancia LocalDb. 
@@ -24,7 +34,7 @@ namespace CONTEXTO
         public virtual DbSet<MODELO.Socio> Socios { get; set; }
         public virtual DbSet<MODELO.Usuario> Usuarios { get; set; }
         public virtual DbSet<MODELO.Aeronave> Aeronaves { get; set; }
-        public virtual DbSet<MODELO.Licencia> Licencias { get; set; }
+        
         public virtual DbSet<MODELO.Vuelo> Vuelos { get; set; }
         public virtual DbSet<MODELO.Reserva>Reservas { get; set; }
         public virtual DbSet<MODELO.Curso> Cursos { get; set; }
@@ -39,8 +49,7 @@ namespace CONTEXTO
                 .HasKey(_ => _.ID_usuario);
             modelBuilder.Entity<MODELO.Aeronave>()
                 .HasKey(_ => _.ID_aeronave);
-            modelBuilder.Entity<MODELO.Licencia>()
-                .HasKey(_ => _.ID_licencia);
+            
             modelBuilder.Entity<MODELO.Vuelo>()
                .HasKey(_ => _.ID_vuelo);
             modelBuilder.Entity<MODELO.Reserva>()

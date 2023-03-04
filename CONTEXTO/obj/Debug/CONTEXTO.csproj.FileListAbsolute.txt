@@ -31,5 +31,7 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.cspr
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.CopyComplete
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.pdb
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.Primero.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.rier.resources
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.csproj.GenerateResource.cache
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\Newtonsoft.Json.xml

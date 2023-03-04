@@ -28,9 +28,9 @@ namespace VISTA
 
         //declaro las variables temporales para crear los objetos del modelo
         private Socios cSocios;
-        private Licencias cLicencias;
+        
         private Socio oSocio;
-        private Licencia oLicencia;
+       
         char ACCION;
         
 
@@ -38,9 +38,8 @@ namespace VISTA
         {
             InitializeComponent();
             cSocios=Socios.ObtenerInstancia();
-            cLicencias = Licencias.ObtenerInstancia();
+            
             COMBO_SOCIOS();
-            //ARMAGRILLADNI();
             MODO_GRILLA();
             ARMA_GRILLA();
         }
@@ -71,28 +70,14 @@ namespace VISTA
             gbListaSocios.Enabled = true;
         }
 
-        private void LISTAR_LICENCIAS()
-        {
-            if(cbListLicencias.Items.Count == 0)
-            {
-                cbListLicencias.Items.Add("Privado");
-                cbListLicencias.Items.Add("Multimotor");
-                cbListLicencias.Items.Add("Comercial");
-                cbListLicencias.Items.Add("Primera clase");
-                cbListLicencias.Items.Add("Instrumentos");
-                cbListLicencias.Items.Add("Instructor");
-            }
-            
-
-        }
+        
         private void MODO_DATOS()
         {
             gbListaSocios.Enabled = false;
             gbDatosSocio.Enabled = true;
             rbComun.Checked = true;
             gbAviacion.Enabled=false;
-            gbLicencias.Enabled=false;
-            LISTAR_LICENCIAS();
+            
 
             if (ACCION == 'C')
             {
@@ -119,7 +104,6 @@ namespace VISTA
             rbAviacion.Checked = false;
             rbComun.Checked = true;
             cbPiloto.Checked = false;
-            cbListLicencias.ClearSelected();
             txtHorasVoladas.Clear();
             
 
@@ -160,15 +144,7 @@ namespace VISTA
             }
 
         }
-        private void LICENCIAS_OBTENIDAS()
-        {
-            List<Licencia> licenciasSeleccionadas = new List<Licencia>();
-            foreach (Licencia licencia in cbListLicencias.CheckedItems)
-            {
-                licenciasSeleccionadas.Add(licencia);
-            }
-            ((MODELO.Piloto)oSocio).licenciasObtenidas.AddRange(licenciasSeleccionadas);
-        }
+        
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -326,8 +302,8 @@ namespace VISTA
                 }
                 ((MODELO.Piloto)oSocio).horasVoladas = horasVoladas;
 
-                //Agregar licencias seleccionadas al atributo licenciasObtenidas de la persona
-                LICENCIAS_OBTENIDAS();
+                
+                
             }
 
             if (ACCION == 'A')
@@ -351,19 +327,7 @@ namespace VISTA
             LIMPIAR();
         }
 
-        private void cbPiloto_CheckedChanged(object sender, EventArgs e)
-        {
-            if (cbPiloto.Checked)
-            {
-                gbLicencias.Enabled = true;
-                cbListLicencias.Enabled=true; 
-            }
-            else
-            {
-                gbLicencias.Enabled = false;
-                cbListLicencias.Enabled=false;
-            }
-        }
+        
 
         private void COMBO_SOCIOS()
         {
@@ -372,9 +336,8 @@ namespace VISTA
 
             //le pido al banco la lisya de clientes y la asigno como arreglo
             cmbSocios.Items.AddRange(cSocios.ObtenerSocios().ToArray());
-            cmbSocios.Items.Insert(0, new Socio { DNI = 0, apellido = "Todos los socios..." });
             cmbSocios.DisplayMember = "nombre";
-            cmbSocios.DisplayMember = "DNI";
+            
            
         }
 
@@ -383,12 +346,18 @@ namespace VISTA
             
             dgvSocios.DataSource = null;
             dgvSocios.DataSource = cSocios.ObtenerSocioDNI(cmbSocios.SelectedItem != null ? ((MODELO.Socio)cmbSocios.SelectedItem).DNI: 0);
+            
         }
 
+       
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             ARMAGRILLADNI();
         }
 
+        private void btnReload_Click(object sender, EventArgs e)
+        {
+            ARMA_GRILLA();
+        }
     }
 }

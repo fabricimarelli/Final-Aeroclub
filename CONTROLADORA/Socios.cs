@@ -12,7 +12,7 @@ namespace CONTROLADORA
     public class Socios
     {
         private static Socios instancia;
-        Aeroclub oAeroclub;
+       
 
         public static Socios ObtenerInstancia()
         {
@@ -23,9 +23,11 @@ namespace CONTROLADORA
             return instancia;
         }
 
+        Aeroclub oAeroclub;
+
         private Socios()
         {
-            oAeroclub=new Aeroclub();
+            oAeroclub = Aeroclub.obtener_instancia();
         }
 
         public List<Socio> ObtenerSocios()
