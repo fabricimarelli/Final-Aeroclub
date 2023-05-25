@@ -17,13 +17,19 @@ namespace MODELO
         public string email { get; set; }
         public byte[] fotoPersona { get; set; }
 
-    }   
+        
+    }
+    
 
     public class Socio : Persona
     {
         public int ID_socio { get; set; }
         public DateTime fechaAdmision { get; set; }
 
+        public override string ToString()
+        {
+            return nombre;
+        }
     }
 
     public class Piloto : Socio
@@ -31,7 +37,10 @@ namespace MODELO
         public bool esPiloto { get; set; }//Esta propiedad representa si es piloto con licencia o es un piloto en formacion (alumno)
         public decimal horasVoladas { get; set; }
 
-
+        public override string ToString()
+        {
+            return nombre;
+        }
     }
 
 }

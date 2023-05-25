@@ -26,6 +26,13 @@ namespace CASOS_USO.Aeronaves
             return aeronaves.ToList();
         }
 
-
+        public static Aeronave ObtenerUNAAeronave(Aeroclub aeroclub, string matricula)//prueba
+        {
+            var aeronave = from Aeronaves in aeroclub.Aeronaves
+                            where (matricula != null ? Aeronaves.matricula == matricula : true)
+                            select Aeronaves;
+            return aeronave.First();
+            
+        }
     }
 }

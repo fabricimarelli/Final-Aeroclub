@@ -35,6 +35,7 @@ namespace CONTROLADORA
             return CASOS_USO.Aeronaves.GestionaAeroanves.ObtieneAeronaves(oAeroclub);
         }
 
+
         public List<Vuelo> ObtenerVuelos()
         {
             return GestionaVuelos.ObtieneVuelo(oAeroclub);
@@ -57,10 +58,10 @@ namespace CONTROLADORA
             oAeroclub.SaveChanges();
         }
 
-        public List<Vuelo> ObtieneVuelo(string matricula)
+        public List<Vuelo> ObtieneVuelo(int ID_aeronave)
         {
 
-            return CASOS_USO.Vuelos.GestionaVuelos.ObtieneVuelo(oAeroclub, matricula);
+            return CASOS_USO.Vuelos.GestionaVuelos.ObtieneVuelo(oAeroclub, ID_aeronave);
         }
 
     }

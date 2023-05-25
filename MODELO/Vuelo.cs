@@ -16,6 +16,7 @@ namespace MODELO
         public decimal taquimLlegada { get; set; }
         public decimal tiempo { get; set; }
         public decimal tarifa { get; set; }
+        public DateTime fechaVuelo { get; set; }
         
         public string observaciones { get; set; }
 
@@ -43,16 +44,18 @@ namespace MODELO
         #region PROPIEDADES
         public Piloto alumno { get; set; }
         public decimal tarifaIns { get; set; }
-        
+
         #endregion
 
 
         #region METODOS
+
+
         public decimal CALCULAR_TARIFA_INS()
         {
-            decimal tarifa = 0;
-            decimal porcentajeIns = 0.1m;
-            tarifa = (((aeronave.tarifaHora)*tiempo)+(aeronave.tarifaHora)*porcentajeIns);
+            
+            
+            tarifa = (tarifa)+(tarifa*0.1m);
             return tarifa;
 
 

@@ -8,9 +8,9 @@ using MODELO;
 
 namespace CASOS_USO.Socios
 {
-    public class GestionaAeroanves
+    public class GestionaSocios
     {
-        public static List<Socio>ObtieneSocio(Aeroclub aeroclub)
+        public static List<Socio>ObtieneSocio(Aeroclub aeroclub)//esta es la del combo
         {
             return aeroclub.Socios.ToList();
         }
@@ -24,6 +24,14 @@ namespace CASOS_USO.Socios
             return socios.ToList();
         }
 
-       
+        public static Piloto ObtenerUNSocio(Aeroclub aeroclub, int  DNI)//prueba
+        {
+            var piloto = from Socios in aeroclub.Socios
+                           where (DNI != null ? Socios.DNI == DNI : true)
+                           select Socios;
+            return piloto.OfType<Piloto>().First();
+
+        }
+
     }
 }

@@ -12,6 +12,7 @@ namespace MODELO
         public int ID_reserva { get; set; }
         public Piloto Piloto { get; set; }//usuario que realiza la reserva 
         public Aeronave aeronave { get; set; }//lista con las aeronaves disponibles
+        public DateTime fecha { get; set; }
         public DateTime desde { get; set; }
         public DateTime hasta { get; set; }
         #endregion

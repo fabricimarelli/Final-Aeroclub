@@ -85,6 +85,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Aeronaves\GestionaAeroanves.cs" />
     <Compile Include="Aeronaves\OperacionesAeronaves.cs" />
+    <Compile Include="Reservas\GestionaReservas.cs" />
+    <Compile Include="Reservas\OperacionesReservas.cs" />
     <Compile Include="Sesiones\GestionSesion.cs" />
     <Compile Include="Socios\GestionaSocios.cs" />
     <Compile Include="Socios\OperacionesSocios.cs" />

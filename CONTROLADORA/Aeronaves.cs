@@ -58,7 +58,10 @@ namespace CONTROLADORA
             return CASOS_USO.Aeronaves.GestionaAeroanves.ObtenerAeronaveMAT(oAeroclub, ID_aeronave);
         }
 
-        
+        public Aeronave ObtenerUNAAeronave(string matricula)
+        {
+            return CASOS_USO.Aeronaves.GestionaAeroanves.ObtenerUNAAeronave(oAeroclub, matricula);
+        }
 
     }
 

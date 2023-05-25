@@ -12,7 +12,7 @@ namespace CASOS_USO.Vuelos
     {
         public static List<Vuelo> ObtieneVuelo(Aeroclub aeroclub)
         {
-            return aeroclub.Vuelos.ToList();
+            return aeroclub.Vuelos.Include("aeronave").ToList();
         }
 
         public static Vuelo ObtieneVuelo1(Aeroclub aeroclub, int ID_vuelo)
@@ -21,10 +21,10 @@ namespace CASOS_USO.Vuelos
         }
 
 
-        public static List<MODELO.Vuelo> ObtieneVuelo(Aeroclub aeroclub, string matricula)
+        public static List<MODELO.Vuelo> ObtieneVuelo(Aeroclub aeroclub, int ID_aeronave)
         {
-            var vuelos = from vuelo in aeroclub.Vuelos
-                         where (matricula != null ? vuelo.aeronave.matricula == matricula : true)
+            var vuelos = from vuelo in aeroclub.Vuelos.Include("aeronave")
+                         where (ID_aeronave != 0 ? vuelo.aeronave.ID_aeronave == ID_aeronave : true)
                          select vuelo;
             return vuelos.ToList();
         }

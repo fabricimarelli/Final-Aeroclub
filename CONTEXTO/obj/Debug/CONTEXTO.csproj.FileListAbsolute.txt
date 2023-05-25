@@ -49,3 +49,5 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\Microsoft.Azu
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\Microsoft.Rest.ClientRuntime.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations.segunda.resources
+C:\Users\fabri\Desktop\Versiones\Implementacion\CONTEXTO\obj\Debug\CONTEXTO.Migrations._140523.resources

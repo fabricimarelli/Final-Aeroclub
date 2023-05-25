@@ -88,6 +88,14 @@
     <Compile Include="Migrations\202302282044076_rier.designer.cs">
       <DependentUpon>202302282044076_rier.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202303051841490_segunda.cs" />
+    <Compile Include="Migrations\202303051841490_segunda.designer.cs">
+      <DependentUpon>202303051841490_segunda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305141849575_140523.cs" />
+    <Compile Include="Migrations\202305141849575_140523.designer.cs">
+      <DependentUpon>202305141849575_140523.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -104,6 +112,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202302282044076_rier.resx">
       <DependentUpon>202302282044076_rier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303051841490_segunda.resx">
+      <DependentUpon>202303051841490_segunda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305141849575_140523.resx">
+      <DependentUpon>202305141849575_140523.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

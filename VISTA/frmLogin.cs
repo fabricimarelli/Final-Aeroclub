@@ -44,7 +44,7 @@ namespace VISTA
             }
         }
 
-        private void txtUser_Leave(object sender, EventArgs e)///agrega el valor usuario al hacer focus
+        private void txtUser_Leave(object sender, EventArgs e)///agrega el valor usuario al sacar focus
         {
             if(txtUser.Text == "")
             {

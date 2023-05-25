@@ -111,7 +111,7 @@
             this.lblCiudad.AutoSize = true;
             this.lblCiudad.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCiudad.ForeColor = System.Drawing.Color.White;
-            this.lblCiudad.Location = new System.Drawing.Point(82, 58);
+            this.lblCiudad.Location = new System.Drawing.Point(69, 58);
             this.lblCiudad.Name = "lblCiudad";
             this.lblCiudad.Size = new System.Drawing.Size(114, 23);
             this.lblCiudad.TabIndex = 33;

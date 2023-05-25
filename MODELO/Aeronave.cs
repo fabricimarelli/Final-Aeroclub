@@ -18,7 +18,10 @@ namespace MODELO
         public bool enServicio { get; set; }
 
         #endregion
-        
+        public override string ToString()
+        {
+            return matricula;
+        }
         #region METODOS
 
         #endregion

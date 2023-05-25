@@ -58,6 +58,7 @@ namespace MODELO
             public clouds clouds { get; set; }
             public sys sys { get; set; }
             public string name { get; set; }
+           
 
         }
     }

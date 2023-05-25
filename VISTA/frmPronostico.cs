@@ -57,7 +57,6 @@ namespace VISTA
                 lblAmanecer.Text = convertDateTime(info.sys.sunrise).ToShortTimeString(); 
                 lblVelViento.Text = info.wind.speed.ToString()+"m/s";
                 lblTermica.Text = info.main.feels_like.ToString()+"°C";
-                //lblDirecViento.Text = info.wind.deg.ToString() + "°";
                 lblPresion.Text = info.main.pressure.ToString()+"hPa";
                 lblTemperatura.Text = info.main.temp.ToString()+"°C";
                 lblHumedad.Text=info.main.humidity.ToString()+"%";

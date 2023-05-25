@@ -14,11 +14,6 @@ namespace VISTA
 {
     public partial class frmMenuPrincipal : Form
     {
-        public frmMenuPrincipal()
-        {
-            InitializeComponent();
-        }
-
         private static frmMenuPrincipal instancia;
         public static frmMenuPrincipal ObtenerInstancia()
         {
@@ -27,6 +22,12 @@ namespace VISTA
             if (instancia.IsDisposed)
                 instancia = new frmMenuPrincipal();
             return instancia;
+        }
+
+        public frmMenuPrincipal()
+        {
+            InitializeComponent();
+            abrirFromHijo(new frmSocios());
         }
 
 
@@ -113,7 +114,7 @@ namespace VISTA
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-
+            abrirFromHijo(new frmReportes());
         }
 
         private void btnClima_Click(object sender, EventArgs e)
