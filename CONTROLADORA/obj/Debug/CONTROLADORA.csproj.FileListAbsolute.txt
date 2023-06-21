@@ -87,8 +87,6 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\CONTROLAD
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\CONTROLADORA.pdb
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\CASOS_USO.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\CONTEXTO.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\EntityFramework.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\MODELO.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\CASOS_USO.pdb
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\CASOS_USO.dll.config
@@ -104,18 +102,9 @@ C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLAD
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLADORA.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\obj\Debug\CONTROLADORA.pdb
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Newtonsoft.Json.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Newtonsoft.Json.xml
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\System.ValueTuple.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\System.ValueTuple.xml
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
-C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Rest.ClientRuntime.dll
 C:\Users\fabri\Desktop\Versiones\Implementacion\CONTROLADORA\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml

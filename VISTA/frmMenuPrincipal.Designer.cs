@@ -35,6 +35,7 @@
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.menuVertical = new System.Windows.Forms.Panel();
+            this.btnTaller = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
@@ -125,6 +126,7 @@
             // menuVertical
             // 
             this.menuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.menuVertical.Controls.Add(this.btnTaller);
             this.menuVertical.Controls.Add(this.button1);
             this.menuVertical.Controls.Add(this.btnReportes);
             this.menuVertical.Controls.Add(this.btnCerrarSesion);
@@ -140,6 +142,24 @@
             this.menuVertical.Name = "menuVertical";
             this.menuVertical.Size = new System.Drawing.Size(220, 815);
             this.menuVertical.TabIndex = 1;
+            // 
+            // btnTaller
+            // 
+            this.btnTaller.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnTaller.FlatAppearance.BorderSize = 0;
+            this.btnTaller.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.btnTaller.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTaller.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaller.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTaller.Image = ((System.Drawing.Image)(resources.GetObject("btnTaller.Image")));
+            this.btnTaller.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTaller.Location = new System.Drawing.Point(0, 287);
+            this.btnTaller.Name = "btnTaller";
+            this.btnTaller.Size = new System.Drawing.Size(217, 44);
+            this.btnTaller.TabIndex = 10;
+            this.btnTaller.Text = "Taller";
+            this.btnTaller.UseVisualStyleBackColor = false;
+            this.btnTaller.Click += new System.EventHandler(this.btnTaller_Click);
             // 
             // button1
             // 
@@ -168,7 +188,7 @@
             this.btnReportes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(3, 487);
+            this.btnReportes.Location = new System.Drawing.Point(0, 537);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(217, 44);
             this.btnReportes.TabIndex = 8;
@@ -206,7 +226,7 @@
             this.btnUsurios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUsurios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsurios.Image")));
             this.btnUsurios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsurios.Location = new System.Drawing.Point(3, 437);
+            this.btnUsurios.Location = new System.Drawing.Point(0, 487);
             this.btnUsurios.Name = "btnUsurios";
             this.btnUsurios.Size = new System.Drawing.Size(217, 44);
             this.btnUsurios.TabIndex = 6;
@@ -224,7 +244,7 @@
             this.btnClima.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnClima.Image = ((System.Drawing.Image)(resources.GetObject("btnClima.Image")));
             this.btnClima.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClima.Location = new System.Drawing.Point(3, 287);
+            this.btnClima.Location = new System.Drawing.Point(0, 387);
             this.btnClima.Name = "btnClima";
             this.btnClima.Size = new System.Drawing.Size(217, 44);
             this.btnClima.TabIndex = 5;
@@ -296,7 +316,7 @@
             this.btnSocios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSocios.Image = ((System.Drawing.Image)(resources.GetObject("btnSocios.Image")));
             this.btnSocios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSocios.Location = new System.Drawing.Point(3, 387);
+            this.btnSocios.Location = new System.Drawing.Point(0, 437);
             this.btnSocios.Name = "btnSocios";
             this.btnSocios.Size = new System.Drawing.Size(217, 44);
             this.btnSocios.TabIndex = 1;
@@ -371,6 +391,7 @@
         private System.Windows.Forms.Button btnVuelos;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTaller;
     }
 }
 

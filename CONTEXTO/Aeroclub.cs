@@ -34,7 +34,7 @@ namespace CONTEXTO
         public virtual DbSet<MODELO.Socio> Socios { get; set; }
         public virtual DbSet<MODELO.Usuario> Usuarios { get; set; }
         public virtual DbSet<MODELO.Aeronave> Aeronaves { get; set; }
-        
+        public virtual DbSet<MODELO.Mantenimiento> Mantenimientos { get; set; }
         public virtual DbSet<MODELO.Vuelo> Vuelos { get; set; }
         public virtual DbSet<MODELO.Reserva>Reservas { get; set; }
         public virtual DbSet<MODELO.Curso> Cursos { get; set; }
@@ -49,7 +49,8 @@ namespace CONTEXTO
                 .HasKey(_ => _.ID_usuario);
             modelBuilder.Entity<MODELO.Aeronave>()
                 .HasKey(_ => _.ID_aeronave);
-            
+            modelBuilder.Entity<MODELO.Mantenimiento>()
+                .HasKey(_ => _.ID_mantenimiento);
             modelBuilder.Entity<MODELO.Vuelo>()
                .HasKey(_ => _.ID_vuelo);
             modelBuilder.Entity<MODELO.Reserva>()

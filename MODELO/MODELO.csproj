@@ -85,6 +85,7 @@
     <Compile Include="Aeronave.cs" />
     <Compile Include="Curso.cs" />
     <Compile Include="Encriptar.cs" />
+    <Compile Include="Mantenimiento.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Pronostico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

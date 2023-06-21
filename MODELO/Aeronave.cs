@@ -14,6 +14,7 @@ namespace MODELO
         public string matricula { get; set; }
         public string marcaModelo { get; set; }
         public decimal taquimetro { get; set; }
+        public decimal taquimetroFuturo { get; set; }
         public decimal tarifaHora { get; set; }
         public bool enServicio { get; set; }
 
